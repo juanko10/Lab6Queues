@@ -1,0 +1,6 @@
+WARNING - 09:33:49: Creating types 
+WARNING - 09:33:49: Initializing types
+WARNING - 09:33:49: Generic post-process : Creating usages and associations
+WARNING - 09:33:49: Generic post-process : Creating activities
+WARNING - 09:33:49: Saving uml file /resource/Lab 6 Queues/Lab 6 Queues.uml
+WARNING - 09:33:49: Uml file /resource/Lab 6 Queues/Lab 6 Queues.uml saved

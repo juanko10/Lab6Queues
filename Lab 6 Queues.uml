@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GSdIMNXTEeeXmq2O_m7XVg" name="Lab 6 Queues">
+  <elementImport xmi:id="_GStm4tXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm49XTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm5NXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm5dXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm5tXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm59XTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm6NXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm6dXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm6tXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm69XTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm7NXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_GStm7dXTEeeXmq2O_m7XVg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <packageImport xmi:id="_GStm4NXTEeeXmq2O_m7XVg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_GStm4dXTEeeXmq2O_m7XVg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GS3-8NXTEeeXmq2O_m7XVg" name="queue">
+    <packagedElement xmi:type="uml:Class" xmi:id="_GS4mANXTEeeXmq2O_m7XVg" name="ArrayQueue" visibility="public">
+      <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_GS4mAdXTEeeXmq2O_m7XVg" parameter="_GS4mAtXTEeeXmq2O_m7XVg">
+        <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_GS4mAtXTEeeXmq2O_m7XVg" parameteredElement="_GS4mA9XTEeeXmq2O_m7XVg">
+          <ownedParameteredElement xmi:type="uml:Class" xmi:id="_GS4mA9XTEeeXmq2O_m7XVg" name="E" templateParameter="_GS4mAtXTEeeXmq2O_m7XVg"/>
+        </ownedParameter>
+      </ownedTemplateSignature>
+      <interfaceRealization xmi:id="_GTGBYNXTEeeXmq2O_m7XVg" name="queue.Queue" client="_GS4mANXTEeeXmq2O_m7XVg" supplier="_GS4mCNXTEeeXmq2O_m7XVg" contract="_GS4mCNXTEeeXmq2O_m7XVg"/>
+      <ownedOperation xmi:id="_GTGocNXTEeeXmq2O_m7XVg" name="ArrayQueue" visibility="public"/>
+      <ownedOperation xmi:id="_GTJEsNXTEeeXmq2O_m7XVg" name="size" visibility="public">
+        <ownedParameter xmi:id="_GTJEsdXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTK54NXTEeeXmq2O_m7XVg" name="isEmpty" visibility="public">
+        <ownedParameter xmi:id="_GTK54dXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTMvENXTEeeXmq2O_m7XVg" name="first" visibility="public">
+        <ownedParameter xmi:id="_GTMvEdXTEeeXmq2O_m7XVg" type="_GS4mA9XTEeeXmq2O_m7XVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTOkQNXTEeeXmq2O_m7XVg" name="dequeue" visibility="public">
+        <ownedParameter xmi:id="_GTOkQdXTEeeXmq2O_m7XVg" type="_GS4mA9XTEeeXmq2O_m7XVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTRAgNXTEeeXmq2O_m7XVg" name="enqueue" visibility="public">
+        <ownedParameter xmi:id="_GTRAgdXTEeeXmq2O_m7XVg" name="e" type="_GS4mA9XTEeeXmq2O_m7XVg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTTcwNXTEeeXmq2O_m7XVg" name="showReverse" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GS4mBNXTEeeXmq2O_m7XVg" name="SLLQueue" visibility="public">
+      <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_GS4mBdXTEeeXmq2O_m7XVg" parameter="_GS4mBtXTEeeXmq2O_m7XVg">
+        <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_GS4mBtXTEeeXmq2O_m7XVg" parameteredElement="_GS4mB9XTEeeXmq2O_m7XVg">
+          <ownedParameteredElement xmi:type="uml:Class" xmi:id="_GS4mB9XTEeeXmq2O_m7XVg" name="E" templateParameter="_GS4mBtXTEeeXmq2O_m7XVg"/>
+        </ownedParameter>
+      </ownedTemplateSignature>
+      <interfaceRealization xmi:id="_GTVR8NXTEeeXmq2O_m7XVg" name="queue.Queue" client="_GS4mBNXTEeeXmq2O_m7XVg" supplier="_GS4mCNXTEeeXmq2O_m7XVg" contract="_GS4mCNXTEeeXmq2O_m7XVg"/>
+      <ownedOperation xmi:id="_GTV5ANXTEeeXmq2O_m7XVg" name="SLLQueue" visibility="public"/>
+      <ownedOperation xmi:id="_GTYVQNXTEeeXmq2O_m7XVg" name="size" visibility="public">
+        <ownedParameter xmi:id="_GTYVQdXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTaKcNXTEeeXmq2O_m7XVg" name="isEmpty" visibility="public">
+        <ownedParameter xmi:id="_GTaKcdXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTb_oNXTEeeXmq2O_m7XVg" name="first" visibility="public">
+        <ownedParameter xmi:id="_GTb_odXTEeeXmq2O_m7XVg" type="_GS4mB9XTEeeXmq2O_m7XVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTd00NXTEeeXmq2O_m7XVg" name="dequeue" visibility="public">
+        <ownedParameter xmi:id="_GTd00dXTEeeXmq2O_m7XVg" type="_GS4mB9XTEeeXmq2O_m7XVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTg4INXTEeeXmq2O_m7XVg" name="enqueue" visibility="public">
+        <ownedParameter xmi:id="_GTg4IdXTEeeXmq2O_m7XVg" name="e" type="_GS4mB9XTEeeXmq2O_m7XVg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTkigNXTEeeXmq2O_m7XVg" name="showReverse" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_GS4mCNXTEeeXmq2O_m7XVg" name="Queue" visibility="public">
+      <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_GS4mCdXTEeeXmq2O_m7XVg" parameter="_GS4mCtXTEeeXmq2O_m7XVg">
+        <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_GS4mCtXTEeeXmq2O_m7XVg" parameteredElement="_GS4mC9XTEeeXmq2O_m7XVg">
+          <ownedParameteredElement xmi:type="uml:Class" xmi:id="_GS4mC9XTEeeXmq2O_m7XVg" name="E" templateParameter="_GS4mCtXTEeeXmq2O_m7XVg"/>
+        </ownedParameter>
+      </ownedTemplateSignature>
+      <ownedOperation xmi:id="_GTnl0NXTEeeXmq2O_m7XVg" name="size">
+        <ownedParameter xmi:id="_GTnl0dXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GToM4NXTEeeXmq2O_m7XVg" name="isEmpty">
+        <ownedParameter xmi:id="_GToM4dXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GToz8NXTEeeXmq2O_m7XVg" name="first">
+        <ownedParameter xmi:id="_GToz8dXTEeeXmq2O_m7XVg" type="_GS4mC9XTEeeXmq2O_m7XVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTqCENXTEeeXmq2O_m7XVg" name="dequeue">
+        <ownedParameter xmi:id="_GTqCEdXTEeeXmq2O_m7XVg" type="_GS4mC9XTEeeXmq2O_m7XVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTrQMNXTEeeXmq2O_m7XVg" name="enqueue">
+        <ownedParameter xmi:id="_GTrQMdXTEeeXmq2O_m7XVg" name="e" type="_GS4mC9XTEeeXmq2O_m7XVg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GTseUNXTEeeXmq2O_m7XVg" name="showReverse"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GS5NENXTEeeXmq2O_m7XVg" name="testers">
+    <packagedElement xmi:type="uml:Class" xmi:id="_GS5NEdXTEeeXmq2O_m7XVg" name="InputTester" visibility="public">
+      <elementImport xmi:id="_GTuTg9XTEeeXmq2O_m7XVg" importedElement="_GTuTgtXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTu6kdXTEeeXmq2O_m7XVg" importedElement="_GTu6kNXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTu6k9XTEeeXmq2O_m7XVg" importedElement="_GTu6ktXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTu6ltXTEeeXmq2O_m7XVg" importedElement="_GTu6ldXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTvhoNXTEeeXmq2O_m7XVg" importedElement="_GTu6l9XTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTvho9XTEeeXmq2O_m7XVg" importedElement="_GTvhotXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTwIsdXTEeeXmq2O_m7XVg" importedElement="_GTwIsNXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTwIstXTEeeXmq2O_m7XVg" importedElement="_GS4mCNXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GTwIs9XTEeeXmq2O_m7XVg" importedElement="_GS4mBNXTEeeXmq2O_m7XVg" visibility="private"/>
+      <ownedOperation xmi:id="_GTzzENXTEeeXmq2O_m7XVg" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_GTzzEdXTEeeXmq2O_m7XVg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GTzzEtXTEeeXmq2O_m7XVg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GS5NEtXTEeeXmq2O_m7XVg" name="Jobs" visibility="public">
+      <ownedOperation xmi:id="_GT22YNXTEeeXmq2O_m7XVg" name="Jobs" visibility="public">
+        <ownedParameter xmi:id="_GT22YdXTEeeXmq2O_m7XVg" name="arrival">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_GT22YtXTEeeXmq2O_m7XVg" name="departure">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GT4rkNXTEeeXmq2O_m7XVg" name="getArrival" visibility="public">
+        <ownedParameter xmi:id="_GT4rkdXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GT7H0NXTEeeXmq2O_m7XVg" name="setArrival" visibility="public">
+        <ownedParameter xmi:id="_GT7H0dXTEeeXmq2O_m7XVg" name="arrival">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GT89ANXTEeeXmq2O_m7XVg" name="getDeparture" visibility="public">
+        <ownedParameter xmi:id="_GT89AdXTEeeXmq2O_m7XVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GUAAUNXTEeeXmq2O_m7XVg" name="setDeparture" visibility="public">
+        <ownedParameter xmi:id="_GUAAUdXTEeeXmq2O_m7XVg" name="departure">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GS5NE9XTEeeXmq2O_m7XVg" name="QueueTester" visibility="public">
+      <elementImport xmi:id="_GUCckNXTEeeXmq2O_m7XVg" importedElement="_GS4mANXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GUCckdXTEeeXmq2O_m7XVg" importedElement="_GS4mCNXTEeeXmq2O_m7XVg" visibility="private"/>
+      <elementImport xmi:id="_GUCcktXTEeeXmq2O_m7XVg" importedElement="_GS4mBNXTEeeXmq2O_m7XVg" visibility="private"/>
+      <ownedOperation xmi:id="_GUFf4NXTEeeXmq2O_m7XVg" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_GUFf4dXTEeeXmq2O_m7XVg" name="Args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GUFf4tXTEeeXmq2O_m7XVg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GUMNkNXTEeeXmq2O_m7XVg" name="testQ" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_GUMNkdXTEeeXmq2O_m7XVg" name="s" type="_GS4mCNXTEeeXmq2O_m7XVg"/>
+        <ownedTemplateSignature xmi:id="_GUMNktXTEeeXmq2O_m7XVg" parameter="_GUMNk9XTEeeXmq2O_m7XVg">
+          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_GUMNk9XTEeeXmq2O_m7XVg" parameteredElement="_GUMNlNXTEeeXmq2O_m7XVg">
+            <ownedParameteredElement xmi:type="uml:Class" xmi:id="_GUMNlNXTEeeXmq2O_m7XVg" name="E" templateParameter="_GUMNk9XTEeeXmq2O_m7XVg"/>
+          </ownedParameter>
+        </ownedTemplateSignature>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_GUYa0NXTEeeXmq2O_m7XVg" name="testers_io" client="_GS5NENXTEeeXmq2O_m7XVg" supplier="_GTuTgdXTEeeXmq2O_m7XVg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_GUYa0dXTEeeXmq2O_m7XVg" name="testers_math" client="_GS5NENXTEeeXmq2O_m7XVg" supplier="_GTu6lNXTEeeXmq2O_m7XVg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_GUYa0tXTEeeXmq2O_m7XVg" name="testers_util" client="_GS5NENXTEeeXmq2O_m7XVg" supplier="_GTvhodXTEeeXmq2O_m7XVg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_GUYa09XTEeeXmq2O_m7XVg" name="testers_queue" client="_GS5NENXTEeeXmq2O_m7XVg" supplier="_GS3-8NXTEeeXmq2O_m7XVg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GS50INXTEeeXmq2O_m7XVg" name="theSystem"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_GTPyYNXTEeeXmq2O_m7XVg" name="E"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GTuTgNXTEeeXmq2O_m7XVg" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_GTuTgdXTEeeXmq2O_m7XVg" name="io">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GTuTgtXTEeeXmq2O_m7XVg" name="BufferedReader"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GTu6kNXTEeeXmq2O_m7XVg" name="FileReader"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GTu6ktXTEeeXmq2O_m7XVg" name="IOException"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GTu6lNXTEeeXmq2O_m7XVg" name="math">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GTu6ldXTEeeXmq2O_m7XVg" name="BigDecimal"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GTu6l9XTEeeXmq2O_m7XVg" name="RoundingMode"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GTvhodXTEeeXmq2O_m7XVg" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GTvhotXTEeeXmq2O_m7XVg" name="ArrayList"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_GTwIsNXTEeeXmq2O_m7XVg" name="Scanner"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
